@@ -33,4 +33,4 @@ models/*.bin
 *.swo
 
 # Docker / Local persistent state
-.docker/
+.docker/*.code-workspace
