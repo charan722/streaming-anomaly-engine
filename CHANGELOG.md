@@ -20,3 +20,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Project folder layout: `config`, `data`, `models`, `src`, and `tests`.
 - Initial environment dependencies specification via `requirements.txt`.
 - Prometheus configuration scraper (`config/prometheus.yml`).
+
+
+## [0.2.0] - 2026-10-01
+### Added
+- Phase 1: High-throughput ingestion layer and Poisson transaction simulator.
+- Pydantic contract definition (`src/ingestion/schemas.py`).
+- Synthetic event generator with card-testing velocity bursts, outlier spikes, and geo-hops (`src/ingestion/producer_simulator.py`).
+- 3-partition Redpanda topic with `account_id` key affinity.
