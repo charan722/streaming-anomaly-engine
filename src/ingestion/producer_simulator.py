@@ -3,7 +3,7 @@ import time
 import uuid
 from typing import Generator
 from kafka import KafkaProducer
-from schemas import TransactionEvent
+from src.ingestion.schemas import TransactionEvent
 
 BOOTSTRAP_SERVERS = ["localhost:9092"]
 TOPIC_NAME = "financial_transactions"
