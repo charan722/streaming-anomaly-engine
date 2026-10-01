@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / C-extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local state & large raw dumps
+data/
+*.parquet
+*.csv
+*.log
+
+# Model artifacts (keep checkpoints local; export ONNX via scripts)
+models/*.onnx
+models/*.json
+models/*.bin
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker / Local persistent state
+.docker/
